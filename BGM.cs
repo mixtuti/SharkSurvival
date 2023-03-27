@@ -5,7 +5,6 @@ using AudioManager;
 
 public class BGM : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         BGMManager.Instance.Play(
@@ -16,11 +15,5 @@ public class BGM : MonoBehaviour
             isLoop          : true,             //ループ再生するか
             allowsDuplicate : false             //他のBGMと重複して再生させるか
 );
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
